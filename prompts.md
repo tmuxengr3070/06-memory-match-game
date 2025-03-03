@@ -1,5 +1,5 @@
 ## ChatGPT Prompt 1 
- want to create an Emoji Memory Match Game. What are the key considerations and gameplay mechanics I should think about?
+ I want to create an Emoji Memory Match Game. What are the key considerations and gameplay mechanics I should think about?
 
   ## ChatGPT Prompt 2
   Write a prompt I can use with GitHub Copilot to generate a single player game based on the suggested Core Gameplay Mechanics and Key Considerations.
