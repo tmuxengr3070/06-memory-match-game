@@ -1,1 +1,2 @@
-# 06-memory-match-game
+# Memory Match Game
+To get started, create a new Codespace from this repo.
