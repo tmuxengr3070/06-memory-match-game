@@ -1,0 +1,70 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #E3F2FD;
+    color: #37474F;
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 20px;
+}
+
+#resetButton {
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFD54F;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resetButton:hover {
+    transform: scale(1.05);
+    background-color: #FFEB3B;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #D1C4E9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card.flipped {
+    background-color: #FFFFFF;
+    transform: rotateY(180deg);
+}
+
+.card.matched {
+    background-color: #FF6F61;
+}
+
+#moveCounter {
+    font-weight: bold;
+}
