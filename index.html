@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emoji Memory Match Game</title>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Emoji Memory Match Game</h1>
+  <!-- Move counter and timer -->
+  <div class="stats">
+    <span id="move-counter">Moves: 0</span>
+    <span id="timer">Time: 0s</span>
+  </div>
+  <!-- Game board container -->
+  <div id="game-board"></div>
+  <!-- Win message -->
+  <div id="win-message" class="hidden">
+    <p>🎉 You Win! 🎉</p>
+    <p id="final-stats"></p>
+    <button id="restart-btn">Restart</button>
+  </div>
+  <!-- Restart button (for during the game) -->
+  <button id="restart-btn-in-game">Restart</button>
+  <!-- Link to the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
